@@ -212,7 +212,10 @@ jobs:
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          future_carbs_4h \
           now_line \
+          2hlollipop \
+          meal_week \
           profiles \
           negative_insulin
 
